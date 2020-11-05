@@ -96,7 +96,7 @@ export default {
           await this.$auth.setUser(response.data.user);
           //this.$router.push('/congreso-virtual');
           //this.$bvModal.hide('modal-login');
-          window.location.href = '/congreso-virtual'
+          window.location.href = '/live'
         } catch (e) {
           console.error(e.response)
           this.$swal('Error', e.response.data.message, 'error');

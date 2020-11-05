@@ -21,8 +21,8 @@
                                            class="btn">INICIAR SESIÓN
                                 </button>
                                 <div>
-                                            <nuxt-link to="/registro"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></nuxt-link>
-                                        </div>
+                                    <nuxt-link to="/registro"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></nuxt-link>
+                                </div>
                             </div>
                         </div>
                     </slide>

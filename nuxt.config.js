@@ -27,7 +27,7 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},
-      {rel: 'stylesheet', href: 'https://use.typekit.net/zcx1erq.css'}, //Adobe Font
+      {rel: 'stylesheet', href: 'https://use.typekit.net/ahv5gkt.css'}, //Adobe Font
       {rel: 'stylesheet', href: 'https://cdn.myth.theoplayer.com/ac28db7f-ce62-4420-805e-a439cb54e97f/ui.css'}, //TheoPlayerCSS
     ]
   },

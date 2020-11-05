@@ -19,10 +19,10 @@
                             <b-nav-item v-if="!$auth.loggedIn" to="/">Inicio</b-nav-item>
                             <b-nav-item v-if="$auth.loggedIn" to="/">Expo</b-nav-item>
                             <b-nav-item v-if="!$auth.loggedIn" to="/registro">Registro</b-nav-item>
-                            <b-nav-item  href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
+                            <b-nav-item v-if="$auth.loggedIn" href="/live" exact exact-active-class="active" >En vivo</b-nav-item>
                             <b-nav-item to="/programa">Programa</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
-                            
+
                             <template v-if="$auth.loggedIn">
                                 <b-nav-item href="#" ><span class="font-weight-bold" style="text-transform: capitalize">Bienvenido(a), {{$auth.user.nombre}} {{$auth.user.apellidoP}}</span></b-nav-item>
                             </template>

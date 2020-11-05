@@ -1,8 +1,8 @@
 // Font Family
-    $font_1 : 'bebas-neue-pro', sans-serif;   //Heading Font
+    $font_1 : 'gimlet-micro', serif;   //Heading Font
     $font_2 :'Roboto', sans-serif;     //Body Font
     $font_3 :'Sen', sans-serif;       //special fonts
-    $font_p :'ingra', sans-serif;   //Pargraf Font
+    $font_p :'montserrat', sans-serif;   //Pargraf Font
 
 /*--------------- ---- Responsive --------------------------*/
 
@@ -51,7 +51,7 @@ $white_color:#fff;
 .boxed-btn {
 	background: #fff;
     color: $theme-color !important;
-    
+
 	display: inline-block;
 	padding: 18px 44px;
 	font-family: $font_1;
