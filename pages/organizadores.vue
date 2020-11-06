@@ -23,7 +23,7 @@
                     <div class="col-md-6 offset-md-3">
                         <div class="card mt-5 executive-table" v-if="executive.length">
                             <div class="card-header">
-                                <h3 class="text-center">Comité científico</h3> <!-- TODO IS A DUPLICATED TITLE -->
+                                <h3 class="text-center">Comité organizador</h3> <!-- TODO IS A DUPLICATED TITLE -->
                             </div>
                             <div class="card-body">
                                 <div class="comments-area">
@@ -35,7 +35,7 @@
                         </div>
                         <div class="card mt-5 group-table" v-if="groups.length">
                             <div class="card-header">
-                                <h3 class="text-center">Comité científico</h3>
+                                <h3 class="text-center">Comités</h3>
                             </div>
                             <div class="card-body board-director-groups" >
                                 <div class="comments-area" v-for="group in groups">

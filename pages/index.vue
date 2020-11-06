@@ -550,7 +550,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                 padding: 0 10rem !important;
 
                 h1, h2, h3 {
-                    font-size: 3rem !important;
+                    font-size: 2.5rem !important;
                 }
 
                 img {

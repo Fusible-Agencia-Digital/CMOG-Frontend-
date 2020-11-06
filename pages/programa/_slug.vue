@@ -273,7 +273,7 @@
 
         .share-network-facebook {
             background-color: $fb;
-            padding: 10px 17px;
+            padding: 10px 15px;
 
             &:hover {
                 background: $fb !important;
@@ -282,7 +282,7 @@
 
         .share-network-twitter {
             background-color: $tw;
-            padding: 10px 14px;
+            padding: 10px 12px;
 
             &:hover {
                 background: $tw !important;
@@ -291,7 +291,7 @@
 
         .share-network-whatsapp {
             background-color: $wa;
-            padding: 10px 15px;
+            padding: 10px 12px;
 
             &:hover {
                 background: $wa !important;

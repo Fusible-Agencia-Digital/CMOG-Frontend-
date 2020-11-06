@@ -65,26 +65,26 @@
                             </div>
                             <div class="card-body">
                                 <div class="row title-cost">
-                                    <div class="col-md-4">
+                                    <div class="col">
                                         <h3>Registro Individual</h3>
-                                        <div class="card mb-4">
+                                        <div class="card mb-4 mt-md-4">
                                             <h5 class="card-header">Especialistas</h5>
                                             <div class="card-body">
-                                                <h5 class="card-title">Inscripción al Congreso Nacional $3,000.00</h5>
-                                                <h5>Anualidad 2020 $2,000.00</h5>
-                                                <h5>Inscripción al Colegio $2,000.00</h5>
+                                                <h6 class="card-title">Inscripción al Congreso Nacional $3,000.00</h6>
+                                                <h6>Anualidad 2020 $2,000.00</h6>
+                                                <h6>Inscripción al Colegio $2,000.00</h6>
                                             </div>
                                         </div>
                                         <div class="card mb-4">
                                             <h5 class="card-header">Residentes, estudiantes y personal paramédico</h5>
                                             <div class="card-body">
-                                                <h5 class="card-title">Inscripción al congreso $ 1,500.00</h5>
+                                                <h6 class="card-title">Inscripción al congreso $ 1,500.00</h6>
                                             </div>
                                         </div>
                                         <div class="card">
                                             <h5 class="card-header">Extranjeros</h5>
                                             <div class="card-body">
-                                                <h5 class="card-title">Inscripción al congreso 150 dlls</h5>
+                                                <h6 class="card-title">Inscripción al congreso 150 dlls</h6>
                                             </div>
                                         </div>
                                         <a href="https://www.srcongress.mx/cmog/registro_virtual.php"
@@ -96,7 +96,7 @@
                             </div>
                         </div>
 
-                        
+
 
                         <!--<div class="card card-info" id="limite">
                             <div class="card-header">
@@ -139,7 +139,7 @@
                                            <li>No. de Cta: 0115459087</li>
                                            <li>CLABE interbancaria: 012180001154590878</li>
                                        </ul>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
   export default {
     data() {
       return {
-        activeTab: 0
+        activeTab: 1
       }
     },
 
