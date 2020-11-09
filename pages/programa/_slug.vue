@@ -57,7 +57,7 @@
                                     </ShareNetwork>
                                 </div>
                             </aside>
-                            <aside class="single_sidebar_widget popular_post_widget">
+                            <aside class="single_sidebar_widget popular_post_widget mb-4">
                                 <h3 class="widget_title">Agéndalo</h3>
                                 <button class="btn btn-sm" @click="addToCalendar">Añadir</button>
                                 <client-only>
@@ -240,6 +240,11 @@
             color: #FFF !important;
             -webkit-text-fill-color: #FFF;
         }
+    }
+    .blog_item_date{
+        position: relative!important;
+        left:0;
+
     }
 
     .btn-sm {
