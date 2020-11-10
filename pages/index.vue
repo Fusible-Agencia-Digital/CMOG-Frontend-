@@ -170,61 +170,69 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                 <h2 class="text-center mb-4 font-weight-bold" style="color:#151762">CENTRO DE ATENCIÓN CMOG 2020</h2>
                 <div class="row">
                     <div class="col-md-4 col-lg-4">
-                        <div class="congress-content">
-                            <img src="~/assets/images/registro_primera_vez.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                    <a href="https://www.srcongress.mx/cmog/registro_virtual.php" >REGISTRO PRIMERA VEZ</a>
-                                </p>
-                                <p class="subtitle">Acceso sin costo</p>
+                        <a href="https://www.srcongress.mx/cmog/registro_virtual.php" >
+                            <div class="congress-content">
+                                <img src="~/assets/images/registro_primera_vez.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        REGISTRO PRIMERA VEZ
+                                    </p>
+                                    <p class="subtitle">Acceso sin costo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4 ">
                         <a href="#" @click="$bvModal.show('dudas')">
-                        <div class="congress-content">
-                            <img src="~/assets/images/atencion_duidas.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                   ATENCIÓN DE DUDAS
-                                </p>
-                                <p class="subtitle"></p>
+                            <div class="congress-content">
+                                <img src="~/assets/images/atencion_duidas.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                    ATENCIÓN DE DUDAS
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
-                         </a>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                        <div class="congress-content">
-                            <img src="~/assets/images/problemas_acceso.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                    <a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a>
-                                </p>
-                                <p class="subtitle"></p>
+                        <a href="#" @click="$bvModal.show('acceso')">
+                            <div class="congress-content">
+                                <img src="~/assets/images/problemas_acceso.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        PROBLEMAS DE ACCESO
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4 ">
-                        <div class="congress-content">
-                            <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                    <a href="#" @click="$bvModal.show('pagos')">ACLARACIÓN DE PAGOS</a>
-                                </p>
-                                <p class="subtitle"></p>
+                        <a href="#" @click="$bvModal.show('pagos')">
+                            <div class="congress-content">
+                                <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        ACLARACIÓN DE PAGOS
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                        <div class="congress-content">
-                            <img src="~/assets/images/pograma.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                    <a href="/docs/Programa-CMOG03-11.pdf" download="">DESCARGA EL PROGRAMA</a>
-                                </p>
-                                <p class="subtitle"></p>
+                        <a href="/docs/Programa-CMOG03-11.pdf" download="">
+                            <div class="congress-content">
+                                <img src="~/assets/images/pograma.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        DESCARGA EL PROGRAMA
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
