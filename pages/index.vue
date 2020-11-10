@@ -167,9 +167,9 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
         <!--? Blog Area Start -->
         <section class="home-blog-area mt-4 mb-4 pt-4 pb-4">
             <div class="container">
-                <h2 class="text-center mb-4 font-weight-bold" style="color:#151762">CENTRO DE ATENCIÓN SOMOS 2020</h2>
+                <h2 class="text-center mb-4 font-weight-bold" style="color:#151762">CENTRO DE ATENCIÓN CMOG 2020</h2>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/images/registro_primera_vez.jpg" alt="">
                             <div class="details">
@@ -180,7 +180,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 offset-lg-2">
+                    <div class="col-md-4 col-lg-4 ">
                         <a href="#" @click="$bvModal.show('dudas')">
                         <div class="congress-content">
                             <img src="~/assets/images/atencion_duidas.jpg" alt="">
@@ -193,7 +193,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                         </div>
                          </a>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/images/problemas_acceso.jpg" alt="">
                             <div class="details">
@@ -204,7 +204,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 offset-lg-2">
+                    <div class="col-md-4 col-lg-4 ">
                         <div class="congress-content">
                             <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
                             <div class="details">
@@ -215,7 +215,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/images/pograma.jpg" alt="">
                             <div class="details">
@@ -300,7 +300,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5591638378">55 916 383 78</a> y <a class="text-black" style="color:black!important" href="tel:9841330675">98 413 306 75</a>  </p>
+             <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5591638378">55 916 383 78</a> y <a class="text-black" style="color:black!important" href="tel:9841330675">98 413 306 75</a>  </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('access')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -474,13 +474,13 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
 
           switch(type){
             case 'doubts':
-                  this.message.mail_to = 'educacion@ammom.mx';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             case 'access':
                   this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             case 'payments':
-                  this.message.mail_to = 'educacion@ammom.mx';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             default:
                   this.message.mail_to = 'atencion@srcongress.mx';
