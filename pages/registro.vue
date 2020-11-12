@@ -124,7 +124,7 @@
 
 
                         <div class="row" id="formas">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="card card-info">
                                     <div class="card-header">
                                         <h2 class="mb-0">Formas de pago</h2>

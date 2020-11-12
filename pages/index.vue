@@ -165,82 +165,87 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
         </section>
         <!-- Brand Area End -->
         <!--? Blog Area Start -->
-        <!--<section class="home-blog-area mb-4 " style="padding:30px 0 30px 0;">
+        <section class="home-blog-area mt-4 mb-4 pt-4 pb-4">
             <div class="container">
+                <h2 class="text-center mb-4 font-weight-bold" style="color:#151762">CENTRO DE ATENCIÓN CMOG 2020</h2>
                 <div class="row">
-                <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
                     <div class="col-md-4 col-lg-4">
-                        <a href="https://www.srcongress.mx/ammom/jornada_virtual.php" >
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/registro.jpg" alt="">
-                            <div class="details">
-                                <p class="title text-left pl-2">DESCARGA TU CONSTANCIA</p>
+                        <a href="https://www.srcongress.mx/cmog/registro_virtual.php" >
+                            <div class="congress-content">
+                                <img src="~/assets/images/registro_primera_vez.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        REGISTRO PRIMERA VEZ
+                                    </p>
+                                    <p class="subtitle">Acceso sin costo</p>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="/docs/Manual_constancias_AMMOM1.pdf" download >
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/atencion_dudas.jpg" alt="">
-                            <div class="details">
-                                <p class="title textl-left pl-2">DESCARGA MANUAL PARA OBTENER CONSTANCIA</p>
+                    <div class="col-md-4 col-lg-4 ">
+                        <a href="#" @click="$bvModal.show('dudas')">
+                            <div class="congress-content">
+                                <img src="~/assets/images/atencion_duidas.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                    ATENCIÓN DE DUDAS
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <a href="#" @click="$bvModal.show('acceso')">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/problemas_acceso.jpg" alt="">
-                            <div class="details">
-                                <p class="title text-left pl-2">PROBLEMAS DE ACCESO</p>
-                                <p class="subtitle"></p>
+                            <div class="congress-content">
+                                <img src="~/assets/images/problemas_acceso.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        PROBLEMAS DE ACCESO
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 ">
+                        <a href="#" @click="$bvModal.show('pagos')">
+                            <div class="congress-content">
+                                <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        ACLARACIÓN DE PAGOS
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                         <a href="#" @click="$bvModal.show('pagos')">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/pagos.jpg" alt="">
-                            <div class="details">
-                                <p class="title text-left pl-2">
-                                  ACLARACIÓN DE PAGOS Y/O PAGOS
-                                </p>
-
+                        <a href="/docs/Programa-CMOG03-11.pdf" download="">
+                            <div class="congress-content">
+                                <img src="~/assets/images/pograma.jpg" alt="">
+                                <div class="details">
+                                    <p class="title">
+                                        DESCARGA EL PROGRAMA
+                                    </p>
+                                    <p class="subtitle"></p>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                       <a href="/docs/Programa-Final-20201023.pdf" download >
+                    <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/programa.jpg" alt="">
+                            <img src="~/assets/images/PRIMER_CONTACTO.jpg" alt="">
                             <div class="details">
-                                <p class="title text-left pl-2">
-                                   DESCARGA EL PROGRAMA
+                                <p class="title">
+                                    <a href="#" @click="$bvModal.show('oncologia')">ONCOLOGÍA PRIMER CONTACTO</a>
                                 </p>
-
+                                <p class="subtitle">A partir del 22 de Septiembre</p>
                             </div>
                         </div>
-                       </a>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="http://streamingmx.com.mx/ammom/landing.php" target="_blank">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/CONFERENCIA_OSTEOPOROSIS.jpg" alt="">
-                            <div class="details" style="top:63px;">
-                                <p class="title text-left pl-2 pr-2">
-                                   24 DE OCTUBRE. CONFERENCÍA DÍA MUNDIAL DE LA OSTEOPOROSIS
-                                </p>
-
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
+                    </div-->
+                    <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/img/content/eposter_2.jpg" alt="">
                             <div class="details">
@@ -251,7 +256,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/simposio.jpg" alt="">
+                            <img src="~/assets/img/content/simposio.jpg" alt="">
                             <div class="details">
                                 <p class="title">Simposio</p>
                                 <p class="subtitle">Actualidades en cáncer de mama</p>
@@ -266,10 +271,10 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                                 <p class="subtitle">Lo mejor de las disciplinas en AMM</p>
                             </div>
                         </div>
-                    </div
+                    </div-->
                 </div>
             </div>
-        </section>-->
+        </section>
         <b-modal id="dudas"  class="text-center" hide-footer>
             <h2 class="text-center">ATENCIÓN DE DUDAS</h2>
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
@@ -303,7 +308,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5591638378">55 916 383 78</a> y <a class="text-black" style="color:black!important" href="tel:9841330675">98 413 306 75</a>  </p>
+             <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5591638378">55 916 383 78</a> y <a class="text-black" style="color:black!important" href="tel:9841330675">98 413 306 75</a>  </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('access')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -477,13 +482,13 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
 
           switch(type){
             case 'doubts':
-                  this.message.mail_to = 'educacion@ammom.mx';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             case 'access':
                   this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             case 'payments':
-                  this.message.mail_to = 'educacion@ammom.mx';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             default:
                   this.message.mail_to = 'atencion@srcongress.mx';
