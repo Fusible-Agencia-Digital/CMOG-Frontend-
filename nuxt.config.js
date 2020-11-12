@@ -70,7 +70,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'UA-181136456-1'
+    id: 'UA-182734266-1'
   },
 
   moment: {
