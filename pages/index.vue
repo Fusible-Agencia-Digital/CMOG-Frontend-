@@ -209,7 +209,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 ">
-                        <a href="#" @click="$bvModal.show('pagos')">
+                        <a href="#" @click="openPaymentChat">
                             <div class="congress-content">
                                 <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
                                 <div class="details">
@@ -523,6 +523,10 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
               this.$swal('Error',e.response.data.message, 'error');
           }
         },
+
+        openPaymentChat() {
+            window.open("/payment-chat", "Chat Aclaración de Pagos");
+        }
     },
 
 

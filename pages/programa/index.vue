@@ -285,6 +285,10 @@
 <style lang="scss" scoped>
     @import "assets/scss/color";
 
+    .slider-area2 {
+        background-image: url(/images/cover_main.jpg);
+    }
+
     /deep/ .v-cal-header {
         display: none !important;
     }
