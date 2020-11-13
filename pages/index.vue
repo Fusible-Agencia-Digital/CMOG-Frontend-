@@ -333,7 +333,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
 
         <b-modal id="pagos"  class="text-center" hide-footer>
             <h2 class="text-center">ACLARACIÓN DE PAGOS</h2>
-            <p class="my-4 text-center">Puede escribirnos a través de este chat. Un asesor se le responderá lo antes posible.</p>
+            <p class="my-4 text-center">Puede escribirnos a través de este chat. Un asesor le responderá lo antes posible.</p>
            <!--<p class="text-center">Linea de atención a acalración de pagos: </p>-->
             <div class="p-4 p-4 text-center m-auto d-block">
                 <iframe src="/payment-chat" frameborder="0" height="500px"></iframe>

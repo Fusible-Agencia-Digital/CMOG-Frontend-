@@ -31,7 +31,7 @@
                                     </div>
                                 </div>
                             </aside>
-                            <a href="/congreso-virtual/live" class="btn my-2 w-100">En vivo</a>
+                            <a href="/live" class="btn my-2 w-100 btn-live">En vivo</a>
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Comparte</h3>
                                 <div class="social-icons" v-if="activity">
@@ -309,6 +309,13 @@
             h3 {
                 font-size: 1rem;
             }
+        }
+    }
+
+    .btn-live {
+      &:hover {
+            color: #FFF !important;
+            -webkit-text-fill-color: inherit;
         }
     }
 
