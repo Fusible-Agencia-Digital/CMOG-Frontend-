@@ -74,6 +74,7 @@
     @import "assets/scss/color";
 
     .slider-area2 {
+        background-image: url(/images/cover_main.jpg);
     }
 
     .directive-table {

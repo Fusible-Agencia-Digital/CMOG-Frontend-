@@ -209,7 +209,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 ">
-                        <a href="#" @click="openPaymentChat">
+                        <a href="#" @click="$bvModal.show('pagos')">
                             <div class="congress-content">
                                 <img src="~/assets/images/aclaracion_pagos.jpg" alt="">
                                 <div class="details">
@@ -333,29 +333,10 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
 
         <b-modal id="pagos"  class="text-center" hide-footer>
             <h2 class="text-center">ACLARACIÓN DE PAGOS</h2>
-            <p class="my-4 text-center">Descríbanos el problema sobre el pago de su registro y nos <br>
-            pondremos en contacto a través del correo eléctronico que nos <br>
-            proporcione</p>
+            <p class="my-4 text-center">Puede escribirnos a través de este chat. Un asesor se le responderá lo antes posible.</p>
            <!--<p class="text-center">Linea de atención a acalración de pagos: </p>-->
-            <div class="p-4">
-                <b-form @submit.prevent="sendMessage('payments')" >
-                    <b-form-group label="Nombre (s)" label-for="input-nombre">
-                        <b-form-input type="text" required v-model="message.name" ></b-form-input>
-                    </b-form-group>
-                    <b-form-group label="Apellido Paterno" label-for="input-apellido-p">
-                        <b-form-input type="text" required v-model="message.last_name"></b-form-input>
-                    </b-form-group>
-                    <b-form-group label="Apellido Materno" label-for="input-apellido-m">
-                        <b-form-input type="text" required v-model="message.mother_last_name"></b-form-input>
-                    </b-form-group>
-                    <b-form-group label="Email" label-for="input-email">
-                        <b-form-input type="email" required v-model="message.email"></b-form-input>
-                    </b-form-group>
-                    <b-form-group label="Duda o problématica" label-for="input-duda">
-                        <b-form-textarea type="text" required v-model="message.message"></b-form-textarea>
-                    </b-form-group>
-                    <b-button variant="primary" class="float-right" type="submit" :disabled="disabled">Enviar</b-button>
-                </b-form>
+            <div class="p-4 p-4 text-center m-auto d-block">
+                <iframe src="/payment-chat" frameborder="0" height="500px"></iframe>
 
             </div>
         </b-modal>
@@ -525,7 +506,7 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
         },
 
         openPaymentChat() {
-            window.open("/payment-chat", "Chat Aclaración de Pagos");
+            window.open("/payment-chat");
         }
     },
 
