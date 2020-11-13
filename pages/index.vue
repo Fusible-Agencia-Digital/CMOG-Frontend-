@@ -447,6 +447,12 @@ Acad. Dr. Víctor Manuel Vargas Hernández</p>
       }
     },
     async mounted() {
+      if (this.$auth.$state.loggedIn) {
+        if (process.client) {
+          window.location.href = '/live';
+        }
+      }
+
       try {
         this.sponsors = await this.$axios.$get(`/sponsors?active_eq=true`);
         this.loaded = true;
